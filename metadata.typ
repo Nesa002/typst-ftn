@@ -1,12 +1,12 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let naslov = "Класификација типа стреса из биосигнала са носивог сензора"
+#let autor = "Ненад Берић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "Stress Type Classification from Wearable Sensor Biosignals"
+#let autor_eng = "Nenad Berić"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV23/2021"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -16,23 +16,39 @@
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+//#let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Стрес, биосигнали, носиви сензори, машинско учење, класификација, електродермална активност, варијабилност срчане фреквенције"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     У раду се проблем детекције стреса из биосигнала носивог сензора
+     формулише као класификација у једну од четири класе: стање мировања,
+     физички стрес, когнитивни стрес и емоционални стрес. Коришћен је скуп
+     података снимљен уређајем Empatica E4 код 20 испитаника. Обележја у
+     временском и фреквенцијском домену рачунају се над прозорима сигнала, а
+     селекција спроводи се пермутационом важношћу. Најбољи резултат, макро
+     F1 меру 0,770, остварује Random Forest: физички стрес препознаје се
+     најпоузданије, а емоционални најслабије, услед хабитуације. Температура
+     коже уноси ефекат забуне услед фиксног редоследа фаза протокола.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "Stress, biosignals, wearable sensors, machine learning, classification, electrodermal activity, heart rate variability"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     The thesis addresses stress type detection from wearable-sensor
+     physiological signals, formulated as classification into one of four
+     classes: relaxation, physical stress, cognitive stress, and emotional
+     stress. The dataset used is recorded with an Empatica E4 wristband on
+     20 subjects during a controlled laboratory protocol. Time- and
+     frequency-domain features are extracted from 60-second signal windows,
+     with feature selection performed using permutation importance. Random
+     Forest achieves the best result, a macro-averaged F1 score of 0.770,
+     recognizing physical stress most reliably and emotional stress least
+     reliably, due to habituation. Feature importance analysis reveals that
+     skin temperature introduces a confounding effect caused by the fixed
+     order of protocol phases.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
