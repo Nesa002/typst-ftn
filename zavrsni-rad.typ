@@ -71,7 +71,7 @@
 #include "poglavlja/2-stanje.typ"
 #include "poglavlja/3-metodologija.typ"
 #include "poglavlja/4-rezultati.typ"
-#include "poglavlja/7-zakljucak.typ"
+#include "poglavlja/5-zakljucak.typ"
 
 
 
