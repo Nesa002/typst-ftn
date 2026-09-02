@@ -10,8 +10,10 @@
     table(
         table.header[*Скраћеница*][*Опис*],
 
+        [BVP], [Blood Volume Pulse (пулсни талас крви)],
         [EDA], [Electrodermal Activity (електродермална активност)],
         [EEG], [Electroencephalography (електроенцефалографија)],
+        [ЕКГ], [Electrocardiography (електрокардиографија)],
         [HRV], [Heart Rate Variability (варијабилност срчане фреквенције)],
         [LF/HF], [Low Frequency/High Frequency ratio (однос ниско- и
             високофреквентне компоненте спектра варијабилности срчане
