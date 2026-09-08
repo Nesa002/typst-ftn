@@ -1,9 +1,9 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Класификација типа стреса на основу биосигнала са носивог сензора"
+#let naslov = "Вишекласна класификација стреса применом машинског учења над физиолошким сигналима носивог сензора"
 #let autor = "Ненад Берић"
 
 // На енглеском
-#let naslov_eng = "Stress Type Classification from Wearable Sensor Biosignals"
+#let naslov_eng = "Multiclass Stress Classification Using Machine Learning on Physiological Signals from a Wearable Sensor"
 #let autor_eng = "Nenad Berić"
 
 #let indeks = "SV23/2021"
