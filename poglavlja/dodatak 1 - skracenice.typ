@@ -14,10 +14,10 @@
         [EDA], [Electrodermal Activity (електродермална активност)],
         [EEG], [Electroencephalography (електроенцефалографија)],
         [ЕКГ], [Electrocardiography (електрокардиографија)],
-        [HRV], [Heart Rate Variability (варијабилност срчане фреквенције)],
+        [HRV], [Heart Rate Variability (варијабилност срчаног ритма)],
         [LF/HF], [Low Frequency/High Frequency ratio (однос ниско- и
-            високофреквентне компоненте спектра варијабилности срчане
-            фреквенције)],
+            високофреквентне компоненте спектра варијабилности срчаног
+            ритма)],
         [PPG], [Photoplethysmography (фотоплетизмографија)],
         [PSD], [Power Spectral Density (спектрална густина снаге)],
         [RMSSD], [Root Mean Square of Successive Differences (корен средње

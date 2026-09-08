@@ -21,17 +21,18 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Стрес, биосигнали, носиви сензори, машинско учење, класификација, електродермална активност, варијабилност срчане фреквенције"
+#let kljucne_reci = "Стрес, биосигнали, носиви сензори, машинско учење, класификација, електродермална активност, варијабилност срчаног ритма"
 #let apstrakt = [
      У раду се проблем детекције стреса из биосигнала носивог сензора
      формулише као класификација у једну од четири класе: стање мировања,
-     физички стрес, когнитивни стрес и емоционални стрес. Коришћен је скуп
-     података снимљен уређајем Empatica E4 код 20 испитаника. Обележја у
-     временском и фреквенцијском домену рачунају се над прозорима сигнала, а
-     селекција спроводи се пермутационом важношћу. Најбољи резултат, макро
-     F1 меру 0,770, остварује Random Forest: физички стрес препознаје се
-     најпоузданије, а емоционални најслабије, услед хабитуације. Температура
-     коже уноси ефекат забуне услед фиксног редоследа фаза протокола.
+     физички стрес, когнитивни стрес и емоционални стрес. Спроведен је
+     потпуни ланац обраде сигнала носивог сензора на зглобу, од филтрирања
+     до екстракције и селекције обележја пермутационом важношћу. Три
+     подешена модела машинског учења пореде се: Random Forest остварује
+     најбољи резултат, макро F1 меру 0,770, физички стрес препознаје се
+     најпоузданије, а емоционални најслабије, услед опадајуће реактивности
+     сигнала. Температура коже уноси ефекат забуне услед фиксног редоследа
+     фаза протокола.
 ]
 
 // На енглеском
@@ -40,14 +41,13 @@
      The thesis addresses stress type detection from wearable-sensor
      physiological signals, formulated as classification into one of four
      classes: relaxation, physical stress, cognitive stress, and emotional
-     stress. The dataset used is recorded with an Empatica E4 wristband on
-     20 subjects during a controlled laboratory protocol. Time- and
-     frequency-domain features are extracted from 60-second signal windows,
-     with feature selection performed using permutation importance. Random
-     Forest achieves the best result, a macro-averaged F1 score of 0.770,
-     recognizing physical stress most reliably and emotional stress least
-     reliably, due to habituation. Feature importance analysis reveals that
-     skin temperature introduces a confounding effect caused by the fixed
+     stress. A complete wrist-worn signal processing pipeline is
+     implemented, from filtering through feature extraction and selection
+     via permutation importance. Three tuned machine learning models are
+     compared: Random Forest achieves the best result, a macro-averaged F1
+     score of 0.770, recognizing physical stress most reliably and
+     emotional stress least reliably, due to declining signal reactivity.
+     Skin temperature introduces a confounding effect caused by the fixed
      order of protocol phases.
 ]
 
