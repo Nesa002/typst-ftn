@@ -72,15 +72,15 @@
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
+#let datum_odbrane = "22.09.2026"
+#let komisija_predsednik = "Никола Лубурић"
 #let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
+#let komisija_clan = "Никола Петровић"
 #let komisija_clan_zvanje = "доцент"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
+#let komisija_predsednik_eng = "Nikola Luburić"
+#let komisija_clan_eng = "Nikola Petrović"
 #let mentor_eng = "Igor Dejanović"
 
 
